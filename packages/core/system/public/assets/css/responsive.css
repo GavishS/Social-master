@@ -1,0 +1,83 @@
+@media(min-width:1200px) and (max-width:1400px){
+.reply-again input{ width:80%;}
+}
+
+@media(min-width:1025px) {
+.container{width: 100%;}
+
+}
+
+
+@media(min-width:1025px) and (max-width:1199px){
+.reply-again input{ width:70%;}
+
+}
+
+@media(min-width:768px){
+.left-side h1{ padding:0 20px;}
+}
+
+@media(min-width:992px) and (max-width:1024px){
+.logo > a { display: block; height: 100%; padding:3px 0 0; vertical-align: bottom;}
+.comment-list-left { width: 10%;}
+.comment-list-right {width: 90%;}
+.reply-again input{ width:70%;}
+.comment-reply .comment-here { float: right; width: 86%;}
+.comment-list-right.sub-comment-css { width: 86%;}
+
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+.logo > a { display: block; height: 100%; padding:5px 0 0; vertical-align: bottom;}
+.comment-list-left { width: 15%;}
+.comment-list-right {width: 85%;}
+
+.comment-reply .comment-list-left {width: 20%;}
+.comment-reply .comment-here { width:80%;} 
+.reply-again input{ width:70%;}
+
+.reply-again input { width: 100%; margin:0 0 10px;}
+.reply-again{ background:none;}
+.reply-again i{ float:left;}
+.reply-again button{ border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; }
+.comment-list-right.sub-comment-css { width: 80%;}
+
+}
+
+@media(max-width:767px){
+body, html { height: auto ; }
+
+.logo,
+.logo a{ display:block; text-align:center;}
+.default-message{ display:none;	}
+header { height: auto;}
+.user-link{ float:none; text-align:center; display:block; padding:0;}
+.header-right { padding: 10px 0;}
+.left-side { margin: 0 -15px;}
+.user-panel ul{ border-top:1px solid #e4e7ef;}
+.news-feed {padding: 20px;}
+.spacing { padding: 15px 0;}
+
+
+.comment-list-left { float: none; margin: 0 0 20px; width: 100%;}
+.comment-list-right { float: none;  width: 100%;}
+
+.comment-reply { width: 90%; float:right;}
+.comment-reply .comment-here { float: right; width: 100%;}
+
+.comment-part { padding: 20px;}
+.comment-here {  padding: 15px;}
+.comment-here p { font-size: 15px;  line-height: 22px; padding: 0 0 20px;}
+.comment-bottom span a { font-size: 12px;}
+
+
+.reply-again input { width: 100%; margin:0 0 10px;}
+.reply-again{ background:none;}
+.reply-again i {float: none; line-height: 26px; padding: 0;}
+.reply-again button{ border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; }
+.reply-again a{ background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #DEE2EA; border-radius: 2px 2px 2px 2px; float: left; height: 28px; text-align: center; width: 28px;}
+.comment-list-right.sub-comment-css { width: 100%;}
+
+
+}
